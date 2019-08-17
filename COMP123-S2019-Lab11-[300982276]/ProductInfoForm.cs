@@ -20,7 +20,7 @@ namespace COMP123_S2019_Assignment5__300982276_
         private void ProductInfoNextButton_Click(object sender, EventArgs e)
         {
             OrderForm orderForm = new OrderForm();
-            //endForm.parent = this;
+            
             orderForm.Show();
             this.Hide();
         }
