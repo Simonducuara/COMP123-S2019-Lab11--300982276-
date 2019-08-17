@@ -1,4 +1,4 @@
-﻿namespace COMP123_S2019_Lab11__300982276_
+﻿namespace COMP123_S2019_Assignment5__300982276_
 {
     partial class SplashScreen
     {
@@ -63,7 +63,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightGray;
-            this.BackgroundImage = global::COMP123_S2019_Lab11__300982276_.Properties.Resources.BackGroundimagen;
+            this.BackgroundImage = global::COMP123_S2019_Assignment5__300982276_.Properties.Resources.BackGroundimagen;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.ClientSize = new System.Drawing.Size(800, 600);
             this.Controls.Add(this.label2);

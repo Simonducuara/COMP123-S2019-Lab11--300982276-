@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace COMP123_S2019_Lab11__300982276_.Properties {
+namespace COMP123_S2019_Assignment5__300982276_.Properties {
     using System;
     
     

@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace COMP123_S2019_Lab11__300982276_
+namespace COMP123_S2019_Assignment5__300982276_
 {
     public partial class OrderForm : Form
     {
@@ -33,7 +33,10 @@ namespace COMP123_S2019_Lab11__300982276_
 
         private void OrderFinishButton_Click(object sender, EventArgs e)
         {
+            MessageBox.Show("Printing");
             Application.Exit();
         }
+
+       
     }
 }

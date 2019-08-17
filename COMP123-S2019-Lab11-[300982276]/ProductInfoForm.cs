@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace COMP123_S2019_Lab11__300982276_
+namespace COMP123_S2019_Assignment5__300982276_
 {
     public partial class ProductInfoForm : Form
     {
@@ -22,6 +22,13 @@ namespace COMP123_S2019_Lab11__300982276_
             OrderForm orderForm = new OrderForm();
             //endForm.parent = this;
             orderForm.Show();
+            this.Hide();
+        }
+
+        private void SelectAnotherProductButton_Click(object sender, EventArgs e)
+        {
+            SelectForm selectForm = new SelectForm();
+            selectForm.Show();
             this.Hide();
         }
     }
